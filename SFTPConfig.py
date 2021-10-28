@@ -36,10 +36,10 @@ class SFTPConfig(object):
 
     def eabConfig(self):
 
-        self.host = "ft.royall.com"
+        self.host = "..."
         self.port = 22
         self.username = "puru.panta"
-        self.password = "yh6ffty6z9h"
+        self.password = "..."
         self.cnopts.hostkeys = None
         self.localpath = self.BuildCacheDir(self.PROJ_DIR + "\\CacheDir\\")
         self.remotepath = "/UNIVERSITY_OF_KENTUCKY_810_93DF/Search_responders/"
